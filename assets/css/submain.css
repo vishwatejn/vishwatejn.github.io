@@ -12,7 +12,7 @@
     . Footer
     . BUTTONS
     . ICON BOXES
-    . PROJECTS SECTION (PORTFOLIO)
+    . PROJECTS SECTION (PORTFOLIO
     . BLOG  SECTION
     . COUNTER SECTION
     . Testimonial SECTION
@@ -49,7 +49,6 @@ h7{
   color: #ffffff;
   line-height: 1.3;
 }
-
 h1, .h1 {
   font-size: 48px;
   margin-bottom: 25px;
@@ -64,7 +63,10 @@ h3, .h3 {
   font-size: 36px;
   margin-bottom: 25px;
 }
-
+h7, .h7{
+   font-size: 36px;
+  margin-bottom: 25px;
+}
 h4, .h4 {
   font-size: 24px;
   margin-bottom: 15px;
@@ -79,10 +81,7 @@ h6, .h6 {
   font-size: 14px;
   margin-bottom: 10px;
 }
-h7, .h7 {
-  font-size: 36px;
-  margin-bottom: 25px;
-}
+
 p {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;
@@ -295,7 +294,10 @@ img {
     font-size: 20px;
     margin-bottom: 15px;
   }
-
+  h7, .h7 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
   h4, .h4 {
     font-size: 16px;
     margin-bottom: 10px;
@@ -310,10 +312,7 @@ img {
     font-size: 12px;
     margin-bottom: 5px;
   }
-  h7, .h7 {
-    font-size: 20px;
-    margin-bottom: 15px;
-  }
+
   .hide-md {
     display: none !important;
   }
@@ -1670,7 +1669,7 @@ header ul.menu li a.nav-link {
   font-weight: 400;
   display: block;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
 }
 header ul.menu li a.nav-link:hover {
   color: #f50136;
@@ -1711,7 +1710,7 @@ header li ul.sub_menu li a:hover {
 }
 
 header.sticky_header {
-  background-color: #18181c;
+  background-color: #ffffff;
   margin: 0;
   padding: 5px;
   -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
@@ -1721,8 +1720,8 @@ header.sticky_header {
 }
 
 .navbar-toggler {
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid #000000;
+  color: #000000;
   padding: 5px 10px;
   font-size: 30px;
   outline: 0 !important;
@@ -1740,7 +1739,7 @@ header.sticky_header {
 }
 @media (max-width: 767px) {
   header {
-    background-color: #18181c;
+    background-color: #ffffff;
     margin: 0;
     -webkit-box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
     box-shadow: 0 0 42px rgba(0, 0, 0, 0.08);
