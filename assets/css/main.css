@@ -143,9 +143,9 @@ ul.nosyely_list {
   text-align: center;
 }
 .countdown div {
-  margin: 20px;
+  margin: 10px;
   display: inline-block;
-  padding: 25px;
+  padding: 10px;
   min-width: 120px;
   background-color: #F44336;
   color: #ffffff;
@@ -1196,7 +1196,7 @@ img {
 }
 
 .mb30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 10px !important;
 }
 
 .mb35 {
